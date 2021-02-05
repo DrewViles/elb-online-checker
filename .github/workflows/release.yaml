@@ -31,7 +31,7 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Run helm-docs
+      - name: Run Go Build
         run: .github/build-go.sh
 
       - name: Upload Release Asset
