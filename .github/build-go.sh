@@ -11,4 +11,4 @@ export PATH=$PATH:/tmp/go/bin
 go version
 
 # validate docs
-go build -o elb-online-checker /tmp/elb-online-checker
+go build -o /tmp/elb-online-checker .
